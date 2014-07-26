@@ -3,6 +3,7 @@ package org.offerplatform.offer;
 import org.offerplatform.offer.applicability.OfferApplicabilityCriteria;
 import org.offerplatform.offer.eligibility.OfferEligibilityCriteria;
 import org.offerplatform.offer.notification.OfferNotification;
+import org.offerplatform.offer.pricing.OfferPricing;
 
 import java.util.List;
 
@@ -34,5 +35,8 @@ public class Offer {
 
     /* discount applicability criteria */
     List<OfferApplicabilityCriteria> offerApplicabilityCriteria;
+
+    /* defines offer level price */
+    OfferPricing offerPricing;
 
 }
